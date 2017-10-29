@@ -115,7 +115,7 @@ public class HashFunction {
 
     public String findKey(String key) {
         HashMap<String, String> hashMap = new HashMap<String, String>();
-        hashMap.put("tt","tt");
+        hashMap.put("tt", "tt");
         // Find the keys original hash key
         int arrayIndexHash = Integer.parseInt(key) % 29;
         int temp = arrayIndexHash;

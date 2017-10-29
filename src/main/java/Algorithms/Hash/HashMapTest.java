@@ -1,9 +1,7 @@
 package Algorithms.Hash;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Random;
+import java.util.*;
+
 //https://netjs.blogspot.co.il/2015/05/how-hashmap-internally-works-in-java.html
 public class HashMapTest {
     public static void main(String[] args) {
@@ -12,7 +10,7 @@ public class HashMapTest {
         cityMap.put(new Key(2, "ND"), "New Delhi");
         cityMap.put(new Key(3, "NW"), "Newark");
         cityMap.put(new Key(4, "NP"), "Newport");
-
+        Hashtable<Integer, String> hashtable = new Hashtable<Integer, String>();
         System.out.println("size before iteration " + cityMap.size());
         Iterator<Key> itr = cityMap.keySet().iterator();
         while (itr.hasNext()) {
@@ -39,6 +37,7 @@ class Key {
     // done here for illustrative purpose only
     public int hashCode() {
         //  return new Random().nextInt();
+  //      return super.hashCode();
         return 5;
     }
 
@@ -46,7 +45,8 @@ class Key {
     // A very bad implementation of equals
     // done here for illustrative purpose only
     public boolean equals(Object obj) {
-        return true;
+      // return super.equals(obj);
+         return false;
     }
 
 }
