@@ -5,7 +5,7 @@ https://netjs.blogspot.co.il/2015/11/hashset-vs-linkedhashset-vs-treeset-java.ht
 https://netjs.blogspot.co.il/2016/02/difference-between-hashmap-and-concurrenthashmap-java.html
 https://netjs.blogspot.co.il/2016/01/concurrenthashmap-in-java.html
 https://netjs.blogspot.co.il/2015/10/difference-between-comparable-and-comparator-java.html
-https://netjs.blogspot.co.il/2015/08/how-linked-list-class-works-internally-java.html
+https://netjs.blogspot.co.il/2015/08/difference-between-arraylist-and-linkedlist-in-java.html
 https://netjs.blogspot.co.il/2015/08/how-arraylist-works-internally-in-java.html
 https://netjs.blogspot.co.il/2017/03/primitive-data-types-in-java.html
 https://netjs.blogspot.co.il/2017/03/typewrapper-classes-in-java.html
