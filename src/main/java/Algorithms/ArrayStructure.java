@@ -1,3 +1,5 @@
+package Algorithms;
+
 public class ArrayStructure {
 
     private int[] theArray = new int[50]; // Creates an array with 50 indexes
@@ -269,6 +271,8 @@ public class ArrayStructure {
 
     public static void main(String[] args){
 
+        System.out.println(10 >> 1);
+        System.out.println(200 >>2);
 
 		ArrayStructure newArray = new ArrayStructure();
 
